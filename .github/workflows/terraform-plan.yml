@@ -6,6 +6,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "PLOT13"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
+  # TF_API_TOKEN: "JD3iLqlOSzMdYA.atlasv1.g3CCGs76i0KiHwgr4qWS2Pi4OVcjY4j0a8zKRDwJQRhLyTDCiaTM2HEiOyv8gh9GYQM"
   TF_WORKSPACE: "learn-terraform-github-actions"
   CONFIG_DIRECTORY: "./"
 
